@@ -75,10 +75,10 @@ full-featured.)
 
 * [Lookup Table](applications/lookup_table/)
 * [Expensive Sequence](applications/expensive_seq/)
-* [Word Count](applications/word_count/)
-* [No Duplicates](applications/no_dups/)
+* [Word Count](applications/word_count/) X
+* [No Duplicates](applications/no_dups/) X
 * [Markov Chains](applications/markov/)
-* [Histogram](applications/histo/)
-* [Cracking Caesar Ciphers](applications/crack_caesar/)
+* [Histogram](applications/histo/) X
+* [Cracking Caesar Ciphers](applications/crack_caesar/) X
 * [Sum and Difference](applications/sumdiff/)
 

@@ -6,7 +6,6 @@ class HashTableEntry:
         self.key = key
         self.value = value
         self.next = None
-        self.head = None
 
 
 # Hash table can't have fewer than this many slots
@@ -165,13 +164,13 @@ class HashTable:
         Implement this.
         """
         # Your code here
-        olden = self.storage
+        old = self.storage
 
         self.capacity = new_capacity
 
         self.storage = [None] * new_capacity
 
-        for keys in olden:
+        for keys in old:
             if keys:
                 current = keys
 
